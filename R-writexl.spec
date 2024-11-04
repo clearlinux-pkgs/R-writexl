@@ -7,7 +7,7 @@
 #
 Name     : R-writexl
 Version  : 1.5.1
-Release  : 6
+Release  : 7
 URL      : https://cran.r-project.org/src/contrib/writexl_1.5.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/writexl_1.5.1.tar.gz
 Summary  : Export Data Frames to Excel 'xlsx' Format
