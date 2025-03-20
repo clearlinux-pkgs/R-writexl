@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : R-writexl
-Version  : 1.5.1
-Release  : 8
-URL      : https://cran.r-project.org/src/contrib/writexl_1.5.1.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/writexl_1.5.1.tar.gz
+Version  : 1.5.2
+Release  : 9
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/writexl_1.5.2.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/writexl_1.5.2.tar.gz
 Summary  : Export Data Frames to Excel 'xlsx' Format
 Group    : Development/Tools
 License  : BSD-2-Clause MPL-2.0
@@ -60,10 +60,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740105260
+export SOURCE_DATE_EPOCH=1742434599
 
 %install
-export SOURCE_DATE_EPOCH=1740105260
+export SOURCE_DATE_EPOCH=1742434599
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/R-writexl
 cp %{_builddir}/writexl/inst/COPYRIGHT %{buildroot}/usr/share/package-licenses/R-writexl/ebd45039849a00b9632ed4cd210e35d61dc8547a || :
